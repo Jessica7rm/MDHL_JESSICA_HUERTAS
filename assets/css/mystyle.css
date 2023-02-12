@@ -1,0 +1,22 @@
+
+.main-box{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    text-align: start;
+}
+.main-box .logo{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+
+}
+.main-box .news{
+    margin-top: 60px;
+    margin-left: 40px;
+
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
