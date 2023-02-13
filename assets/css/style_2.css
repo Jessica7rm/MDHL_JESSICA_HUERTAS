@@ -38,7 +38,7 @@ nav a{
 }
  
 nav a:hover{
-  background-color: rgb(32, 164, 102);
+  background-color: rgb(90, 161, 153);
   transform: scale(1.2)
 } 
 
@@ -48,7 +48,7 @@ nav a:hover{
     align-content: center;
     filter: grayscale(1);
     transition: .4s;
-    border: 6px solid orange;
+    border: 6px solid rgb(208, 74, 60);
 }
 
 #Foto1:hover {
@@ -64,7 +64,7 @@ main{
 h2{
     text-align: center;
     padding: 5px;
-    border-color: orange;
+    border-color: rgb(208, 74, 60);
     border-style: solid;
 }
 
@@ -83,7 +83,7 @@ h3 {
     display: inline-block;
     width: 20%;
     height: 100%;
-    border: solid orange;
+    border: solid rgb(208, 74, 60);
     padding: 1rem;
     border-radius: 30%;
 }
