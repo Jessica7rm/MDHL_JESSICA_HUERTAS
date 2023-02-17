@@ -22,20 +22,35 @@
             <a href="#">Registration</a>
         </nav>
     </header>
-    <form action="./show_data.html">
+    <form action="./show_data.html" method="get">
+        <h5 style="color:red;"><strong>* Campos requeridos</strong></h5>
         <fieldset>
-            <label for="Name">Player's First Name:</label>
-            <input required name="Name" type="text" id="Name">
+            <label for="first_name">Player's First Name:
+            <input required name="first_name" type="text" id="first_name"></label><span style="color:red;">*</span>
             <label for="Last_name">Last Name:</label>
-            <input required name="Last_name" type="text" id="Last_name"><br>
+            <input required name="Last_name" type="text" id="Last_name"><span style="color:red;">*</span><br>
             <label for="Address"> Street Address:</label>
-            <input required name="Address" type="text" id="Address"><br>
+            <input required name="Address" type="text" id="Address"><span style="color:red;">*</span><br>
             <label for="City">City:</label>
-            <input required name="City" type="text" id="City">
+            <input required name="City" type="text" id="City"><span style="color:red;">*</span>
             <label for="Zip_Code">Zip Code:</label>
-            <input required name="Zip_Code" type="number" id="Zip_Code">
+            <input required name="Zip_Code" type="number" id="Zip_Code"><span style="color:red;">*</span>
             <label for="Birth">Birth Date:</label>
-            <input required name="Birth" type="date" id="Birth">
+            <input required name="Birth" type="date" id="Birth"><span style="color:red;">*</span><br>
+            <label for="Parent_Guardian">Parent/Guardian:</label>
+            <input required name="Parent_Guardian" type="text" id="Parent_Guardian"><span style="color:red;">*</span>
+        </fieldset>
+        <fieldset>
+            <legend>School</legend>
+            <select name="School" id="School">
+                <option selected disabled>School</option>
+                <option value="AJ k">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard">Howard A Yeager</option>
+                <option value="Marjorie">Marjorie P Hart</option>
+                <option value="North">North</option>
+                <option value="South">South</option>
+            </select>
         </fieldset>
         <fieldset>
             <legend>Gender:</legend>
@@ -184,8 +199,12 @@
                 have read the cancellation policy and agree to its terms.</p>
         </section>
         <fieldset>
+            <label for="Signature">Parent/GuardianSignature:</label>
+            <input required name="Signature" type="text" id="Signature"><span style="color:red;">* Sign writing name and last name</span>
+        </fieldset>
+        <fieldset>
             <label for="Date">Date:</label>
-            <input required name="Date" type="date" id="Date">
+            <input required name="Date" type="date" id="Date"><span style="color:red;">*</span>
         </fieldset>
 
         <input type="submit" id="submit">
