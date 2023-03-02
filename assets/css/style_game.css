@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    min-height: 5vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    min-height: 95vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 2rem;
+}
+
+table {
+    background-color: rgb(233, 138, 14);
+    margin: 2rem;
+    width: 90%;
+}
+
+th, td {
+    padding: 15px;
+    margin: 15px;
+    background-color: #f5dab6;
+}
+
+h3, p {
+    padding: 10px;
+}
+
+#datos {
+    display: inline-flex;
+}
+
+#email {
+    font-weight: bolder;
+}

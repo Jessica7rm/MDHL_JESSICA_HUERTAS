@@ -19,13 +19,13 @@ h1{
 
 nav{
     position: relative;
-    left: 22.5rem;
-    align-items: flex-end;
+    left: 7rem;
+    align-items: center;
 }
 
 nav a{ 
     display: inline-block;
-    width: 6.5rem;
+    width: 9.5rem;
     height: 1rem;
     text-align: center;
     padding: 0.6rem;
